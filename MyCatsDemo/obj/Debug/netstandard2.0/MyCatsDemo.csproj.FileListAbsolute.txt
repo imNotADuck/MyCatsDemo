@@ -1,0 +1,17 @@
+/Users/mikey/projects/MyCatsDemo/MyCatsDemo/obj/Debug/netstandard2.0/MyCatsDemo.csproj.AssemblyReference.cache
+/Users/mikey/projects/MyCatsDemo/MyCatsDemo/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/mikey/projects/MyCatsDemo/MyCatsDemo/obj/Debug/netstandard2.0/DataTemplates/CatBreedDataSelector.xaml.g.cs
+/Users/mikey/projects/MyCatsDemo/MyCatsDemo/obj/Debug/netstandard2.0/Views/MyCatDetailPage.xaml.g.cs
+/Users/mikey/projects/MyCatsDemo/MyCatsDemo/obj/Debug/netstandard2.0/Views/MyCatsPage.xaml.g.cs
+/Users/mikey/projects/MyCatsDemo/MyCatsDemo/obj/Debug/netstandard2.0/Views/MyCollectionView.xaml.g.cs
+/Users/mikey/projects/MyCatsDemo/MyCatsDemo/obj/Debug/netstandard2.0/MyCatsDemo.AssemblyInfoInputs.cache
+/Users/mikey/projects/MyCatsDemo/MyCatsDemo/obj/Debug/netstandard2.0/MyCatsDemo.AssemblyInfo.cs
+/Users/mikey/projects/MyCatsDemo/MyCatsDemo/obj/Debug/netstandard2.0/MyCatsDemo.csproj.CoreCompileInputs.cache
+/Users/mikey/projects/MyCatsDemo/MyCatsDemo/obj/Debug/netstandard2.0/MyCatsDemo.dll
+/Users/mikey/projects/MyCatsDemo/MyCatsDemo/obj/Debug/netstandard2.0/ref/MyCatsDemo.dll
+/Users/mikey/projects/MyCatsDemo/MyCatsDemo/obj/Debug/netstandard2.0/MyCatsDemo.pdb
+/Users/mikey/projects/MyCatsDemo/MyCatsDemo/bin/Debug/netstandard2.0/MyCatsDemo.deps.json
+/Users/mikey/projects/MyCatsDemo/MyCatsDemo/bin/Debug/netstandard2.0/MyCatsDemo.dll
+/Users/mikey/projects/MyCatsDemo/MyCatsDemo/bin/Debug/netstandard2.0/ref/MyCatsDemo.dll
+/Users/mikey/projects/MyCatsDemo/MyCatsDemo/bin/Debug/netstandard2.0/MyCatsDemo.pdb
+/Users/mikey/projects/MyCatsDemo/MyCatsDemo/obj/Debug/netstandard2.0/XamlC.stamp

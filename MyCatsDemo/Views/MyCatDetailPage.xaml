@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:MyPage
+    x:Class="MyCatsDemo.Views.MyCatDetailPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converters="clr-namespace:MyCatsDemo.Utils.Converter"
+    xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:viewModels="clr-namespace:MyCatsDemo.ViewModels"
+    xmlns:views="clr-namespace:MyCatsDemo.Views"
+    Title="{Binding Cat.Name}"
+    x:DataType="viewModels:CatDetailViewModel"
+    x:TypeArguments="viewModels:CatDetailViewModel"
+    BackgroundColor="{StaticResource bg_green}">
+
+    <RefreshView Command="{Binding RefreshCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
+        <ScrollView VerticalOptions="FillAndExpand">
+            <Grid>
+                <Label
+                    Padding="40"
+                    FontSize="25"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"
+                    IsVisible="{Binding LoadingError}"
+                    Text="Oops! No cat at the moment... (Error cat UI test)"
+                    VerticalOptions="Center" />
+                <StackLayout
+                    Padding="15"
+                    IsVisible="{Binding LoadingError, Converter={converters:InvertBooleanConverter}}"
+                    Spacing="20"
+                    VerticalOptions="FillAndExpand">
+                    <StackLayout Spacing="80" VerticalOptions="FillAndExpand">
+                        <forms:CachedImage
+                            Aspect="AspectFill"
+                            CacheType="Disk"
+                            DownsampleHeight="700"
+                            HeightRequest="550"
+                            HorizontalOptions="Fill"
+                            LoadingPlaceholder="{StaticResource LoadingCat}"
+                            Source="{Binding Cat.ImageUrl}"
+                            VerticalOptions="Start" />
+                        <Label
+                            FontSize="16"
+                            HorizontalTextAlignment="Center"
+                            LineBreakMode="NoWrap"
+                            MaxLines="0"
+                            Text="{Binding Cat.Description}"
+                            VerticalOptions="CenterAndExpand" />
+                        <Label
+                            FontSize="11"
+                            HorizontalTextAlignment="Center"
+                            Text="Pull down for more cats!"
+                            VerticalOptions="End" />
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </RefreshView>
+
+
+</views:MyPage>

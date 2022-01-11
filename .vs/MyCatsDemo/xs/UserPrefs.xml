@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{8B3966DE-D2D2-4BD3-8DEE-47E8681599EA}|Default">
+  <MonoDevelop.Ide.ItemProperties.MyCatsDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E9CFC457-3D92-4E5A-9972-7A412CFD7E6F" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyCatsDemo" expanded="True">
+            <Node name="MyCatsDemo" expanded="True" />
+            <Node name="MyCatsDemo.UnitTest" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="MyCatsDemo" expanded="True">
+            <Node name="MyCatsDemo.UnitTest" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MyCatsDemo.Android PreferredExecutionTarget="Android.Pixel_2_XL_API_29" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

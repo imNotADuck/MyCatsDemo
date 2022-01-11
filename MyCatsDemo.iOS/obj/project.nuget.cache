@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "Zfh/muxZzYfblkMPjgkQY6aZreTbA+WUfeFFZVpkMyVQ9+x3EKpfUh1DMysoexWUEoynkr9/yfSXqVX7bvSjrQ==",
+  "success": true,
+  "projectFilePath": "/Users/mikey/projects/MyCatsDemo/MyCatsDemo.iOS/MyCatsDemo.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/mikey/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/mikey/.nuget/packages/system.net.http/4.3.4/system.net.http.4.3.4.nupkg.sha512",
+    "/Users/mikey/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/mikey/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "/Users/mikey/.nuget/packages/unity/5.11.10/unity.5.11.10.nupkg.sha512",
+    "/Users/mikey/.nuget/packages/webp.touch/1.0.8/webp.touch.1.0.8.nupkg.sha512",
+    "/Users/mikey/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/mikey/.nuget/packages/xamarin.ffimageloading/2.4.11.982/xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "/Users/mikey/.nuget/packages/xamarin.ffimageloading.forms/2.4.11.982/xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "/Users/mikey/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

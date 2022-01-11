@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application
+    x:Class="MyCatsDemo.App"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Application.Resources>
+        <x:String x:Key="LoadingCat">loading_cat.png</x:String>
+        <ResourceDictionary>
+            <Color x:Key="cyan">cyan</Color>
+            <Color x:Key="bg_pink">#88b29e</Color>
+            <Color x:Key="bg_green">#b8cdc4</Color>
+            <Color x:Key="fgColor1">#FF2c5a71</Color>
+            <Color x:Key="fgColor2">#324c56</Color>
+            <Style TargetType="Button">
+                <Setter Property="TextColor" Value="{StaticResource fgColor2}" />
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{StaticResource cyan}" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Disabled">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="#332196F3" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource fgColor2}" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
